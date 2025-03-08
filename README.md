@@ -9,5 +9,6 @@ Note:
 - If using a CPU, the training time may reach 5 - 10 minutes.
 - The data has been trained for 10 epochs. You can increase or decrease the number of training epochs according to the performance of your device or your requirements.
 - I provided a test example image, which is an X-wing fighter.
+- If you have a GPU, use test_gpu.py for testing. If you don't have a GPU, use test.py for testing.
 
 
