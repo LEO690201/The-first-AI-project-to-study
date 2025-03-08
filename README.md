@@ -1,7 +1,7 @@
 # The-first-AI-project-to-study
 This is my first deep learning program. It uses the CIFAR10 dataset and can identify the categories of pictures.
 
-The Jupyter file can be directly used in Colab or Kaggle.
+The Jupyter file named'example.ipynb' can be directly used in Colab or Kaggle.It needs to use related GPU.
 
 Note:
 
