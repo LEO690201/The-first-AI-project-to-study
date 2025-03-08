@@ -5,8 +5,8 @@ from model import *
 import torch
 from torch.utils.tensorboard import SummaryWriter
 import time
-train_data=torchvision.datasets.CIFAR10('./data',train=True,download=False,transform=torchvision.transforms.ToTensor())
-test_data=torchvision.datasets.CIFAR10('./data',train=False,download=False,transform=torchvision.transforms.ToTensor())
+train_data=torchvision.datasets.CIFAR10('./data',train=True,download=True,transform=torchvision.transforms.ToTensor())
+test_data=torchvision.datasets.CIFAR10('./data',train=False,download=True,transform=torchvision.transforms.ToTensor())
 train_data_size=len(train_data)  # 训练集大小
 print("训练集大小：{}".format(train_data_size))
 test_data_size=len(test_data)  # 测试集大小
