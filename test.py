@@ -2,7 +2,7 @@ from PIL import Image
 import torchvision
 import torch.nn as nn
 import torch
-image_path = './x翼战斗机.png'
+image_path = 'The-first-AI-project-to-study/x翼战斗机.png'
 image=Image.open(image_path)
 #print(image)
 image=image.convert('RGB')
